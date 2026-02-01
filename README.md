@@ -5,9 +5,9 @@
   <style>
     body {
       background: #0f172a;
-      color: red;
-      font-family: Arial;
-      text-align: center;
+      color: white;
+      font-family: IndianRed;
+      text-align: DarkSalmon;
       padding-top: 100px;
     }
     .box {
