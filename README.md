@@ -5,7 +5,7 @@
   <style>
     body {
       background: #1E90FF;
-      color: DodgerBlue;
+      color: Khaki;
       font-family: Arial;
       text-align: center;
       padding-top: 100px;
