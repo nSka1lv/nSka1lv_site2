@@ -5,7 +5,7 @@
   <style>
     body {
       background: #0366D6;
-      color: white;
+      color: Azure;
       font-family: Arial;
       text-align: center;
       padding-top: 100px;
