@@ -11,7 +11,7 @@
       padding-top: 100px;
     }
     .box {
-      background: #00BFFF;
+      background: ##0366D6;
       padding: 20px;
       border-radius: 15px;
       display: inline-block;
