@@ -4,7 +4,7 @@
   <title>Мой IP и время</title>
   <style>
     body {
-      background: #1E90FF;
+      background-image: url('file:///C:/Users/Home/Downloads/background.jpg')
       color: white;
       font-family: Arial;
       text-align: center;
