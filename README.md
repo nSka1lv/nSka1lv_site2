@@ -5,7 +5,7 @@
   <style>
     body {
       background: #FFFFE0;
-      color: Gold;
+      color: black;
       font-family: Arial;
       text-align: center;
       padding-top: 100px;
