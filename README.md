@@ -1,1 +1,50 @@
-# ты крут
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой IP и время</title>
+  <style>
+    body {
+      background: #0f172a;
+      color: white;
+      font-family: Arial;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .box {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 15px;
+      display: inline-block;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h2>Информация о тебе</h2>
+    <p>IP-адрес: <span id="ip">Загрузка...</span></p>
+    <p>Дата и время: <span id="time"></span></p>
+  </div>
+
+  <script>
+    // Время
+    function updateTime() {
+      const now = new Date();
+      document.getElementById("time").textContent =
+        now.toLocaleDateString() + " " + now.toLocaleTimeString();
+    }
+    setInterval(updateTime, 1000);
+    updateTime();
+
+    // IP
+    fetch("https://api.ipify.org?format=json")
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById("ip").textContent = data.ip;
+      });
+  </script>
+
+</body>
+</html>
