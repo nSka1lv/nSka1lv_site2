@@ -23,7 +23,7 @@
 
   <div class="box">
     <h2>информация о тебе</h2>
-    <p>IP адрес: <span id="ip">Загрузка...</span></p>
+    <p>IP адрес: <span id="ip">подожди</span></p>
     <p>дата и время: <span id="time"></span></p>
   </div>
 
