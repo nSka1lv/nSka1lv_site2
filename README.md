@@ -5,13 +5,13 @@
   <style>
     body {
       background: #FFFFE0;
-      color: white;
+      color: Gold;
       font-family: Arial;
       text-align: center;
       padding-top: 100px;
     }
     .box {
-      background: #FFFACD;
+      background: #F0E68C;
       padding: 20px;
       border-radius: 15px;
       display: inline-block;
