@@ -22,9 +22,9 @@
 <body>
 
   <div class="box">
-    <h2>Информация о тебе</h2>
-    <p>IP-адрес: <span id="ip">Загрузка...</span></p>
-    <p>Дата и время: <span id="time"></span></p>
+    <h2>информация о тебе</h2>
+    <p>IP адрес: <span id="ip">Загрузка...</span></p>
+    <p>дата и время: <span id="time"></span></p>
   </div>
 
   <script>
