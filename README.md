@@ -4,14 +4,14 @@
   <title>Мой IP и время</title>
   <style>
     body {
-      background: #4682B4;
+      background: ##0366D6;
       color: white;
       font-family: Arial;
       text-align: center;
       padding-top: 100px;
     }
     .box {
-      background: #0366D6;
+      background: #4682B4;
       padding: 20px;
       border-radius: 15px;
       display: inline-block;
